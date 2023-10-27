@@ -68,3 +68,7 @@ Background gradient:
     /* dividers */
     --lightGrayishBlue: hsl(240, 5%, 91%);
 }
+
+details summary::-webkit-details-marker {
+    display: none;
+}
