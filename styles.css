@@ -69,6 +69,14 @@ Background gradient:
     --lightGrayishBlue: hsl(240, 5%, 91%);
 }
 
-details summary::-webkit-details-marker {
-    display: none;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#faqCard {
+    max-width: 750px;
+    min-width: 350px;
 }
