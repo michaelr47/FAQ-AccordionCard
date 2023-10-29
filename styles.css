@@ -79,4 +79,7 @@ main {
 #faqCard {
     max-width: 750px;
     min-width: 350px;
+    margin: 2rem;
+    border: 1px solid red;
+    position: relative;
 }
