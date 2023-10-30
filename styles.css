@@ -81,5 +81,11 @@ main {
     min-width: 350px;
     margin: 2rem;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.illustrationImage {
     position: relative;
 }
