@@ -68,6 +68,9 @@ Background gradient:
     /* dividers */
     --lightGrayishBlue: hsl(240, 5%, 91%);
 }
+body {
+    background: linear-gradient( var(--softViolet), var(--softBlue) );
+}
 
 main {
     display: flex;
@@ -80,7 +83,6 @@ main {
     max-width: 750px;
     min-width: 350px;
     margin: 2rem;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
