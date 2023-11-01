@@ -83,11 +83,18 @@ main {
     max-width: 750px;
     min-width: 350px;
     margin: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
 }
 
 .illustrationImage {
     position: relative;
+}
+
+#questionList {
+    list-style-type: none;
+    padding: 1rem 0px;
 }
