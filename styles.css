@@ -81,20 +81,31 @@ main {
 
 #faqCard {
     max-width: 750px;
-    min-width: 350px;
+    min-width: 325px;
     margin: 2rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
+    border-radius: 10px;
 }
 
-.illustrationImage {
+.illustrationDiv {
     position: relative;
 }
 
 #questionList {
     list-style-type: none;
     padding: 1rem 0px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    #faqCard {
+        flex-direction: row;
+        height: 650px;
+    }
 }
