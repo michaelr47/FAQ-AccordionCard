@@ -82,11 +82,12 @@ main {
 #faqCard {
     max-width: 59.375rem;
     min-width: 325px;
+    height: 550px;
     margin: 2rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: white;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -5px;
