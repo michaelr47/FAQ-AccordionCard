@@ -93,16 +93,20 @@ main {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -5px;
 }
 
-.illustrationDiv {
-    position: relative;
+.faq-dropdowns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 }
-
 #questionList {
     list-style-type: none;
     padding: 1rem 0px;
 }
 
-
+.answers {
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
     
@@ -110,4 +114,5 @@ main {
         flex-direction: row;
         height: 500px;
     }
+
 }
