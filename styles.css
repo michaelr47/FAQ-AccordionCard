@@ -81,7 +81,6 @@ main {
 
 #faqCard {
     max-width: 59.375rem;
-    min-width: 325px;
     height: 550px;
     margin: 2rem;
     padding: 1.5rem;
@@ -97,11 +96,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
 }
 #questionList {
     list-style-type: none;
     padding: 1rem 0px;
+
 }
 
 .answers {

@@ -40,7 +40,7 @@
             <br>
             <li class="questions">
               How do I reset my password? 
-              <span>
+              <span class="answers">
                 Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
               </span>
             </li>
@@ -70,5 +70,16 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
+
+    <script>
+      const questions = Array.from(document.querySelectorAll('.questions'));
+      const answers = Array.from(document.querySelectorAll('.answers'));
+     
+      questions.forEach((question, i) => {
+        question.addEventListener('click', () => {
+          answers[i].style.display = 'inline'; 
+        })
+      })
+    </script>
   </body>
 </html>
