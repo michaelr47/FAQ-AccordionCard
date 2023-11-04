@@ -53,6 +53,7 @@ Background gradient:
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans';
 }
 
 :root {
@@ -80,7 +81,7 @@ main {
 }
 
 #faqCard {
-    max-width: 59.375rem;
+    width: 350px;
     height: 550px;
     margin: 2rem;
     padding: 1.5rem;
@@ -113,6 +114,7 @@ main {
     #faqCard {
         flex-direction: row;
         height: 500px;
+        width: 59.375rem;
     }
 
 }
