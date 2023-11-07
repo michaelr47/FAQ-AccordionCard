@@ -82,7 +82,7 @@ main {
 
 #faqCard {
     width: 350px;
-    margin: 2rem;
+    margin: 1.5rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -101,17 +101,19 @@ main {
 #questionList {
     list-style-type: none;
     padding: 1rem 0px;
-
+    font-size: 12px;
 }
 
 .questions {
     border-bottom: 1px solid var(--lightGrayishBlue);
     padding: 10px;
 }
-.answers {
+
+p { display: inline; }
+
+.answersDiv {
     display: none;
 }
-
 
 @media only screen and (min-width: 768px) {
     
