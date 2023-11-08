@@ -82,6 +82,7 @@ main {
 
 #faqCard {
     width: 350px;
+    min-height: 500px;
     margin: 1.5rem;
     padding: 1.5rem;
     display: flex;
@@ -92,11 +93,13 @@ main {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -5px;
 }
 
+
 .faq-dropdowns {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+   
 }
 #questionList {
     list-style-type: none;
@@ -119,10 +122,16 @@ p { display: inline; }
     
     #faqCard {
         flex-direction: row;
-        min-height: 500px;
         width: 59.375rem;
     }
     .faq-dropdowns {
         width: 400px;
+        align-items: flex-start;
     }
+    #heading {
+        align-self: flex-start;
+        padding: 10px;
+    }
+    
 }
+
