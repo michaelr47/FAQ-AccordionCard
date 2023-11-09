@@ -91,13 +91,23 @@ main {
     background-color: white;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -5px;
-    
-    background-image: url('./images/illustration-woman-online-mobile.svg');
+    position: relative;
+    /* background-image: url('./images/illustration-woman-online-mobile.svg');
     background-repeat: no-repeat;
     background-position: 70px -50px;
-    background-size: 50vw;
+    background-size: 50vw; */
 }
 
+#faqCard::before {
+  content: "";
+  background: url(images/illustration-woman-online-mobile.svg) no-repeat;
+  width: 268px;
+  height: 185px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-45%, -55%);
+}
 
 .faq-dropdowns {
     display: flex;
