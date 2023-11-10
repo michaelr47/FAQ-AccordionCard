@@ -104,9 +104,20 @@ main {
   width: 268px;
   height: 185px;
   position: absolute;
-  top: 0;
+  top: -1%;
   left: 50%;
   transform: translate(-45%, -55%);
+}
+
+#faqCard::after {
+    content: "";
+    background: url(images/bg-pattern-mobile.svg) no-repeat;
+    width: 245px;
+    height: 105px;
+    position: absolute;
+    top: 1%;
+    left: 14%;
+    /* transform: translate(-45%, -55%); */
 }
 
 .faq-dropdowns {
