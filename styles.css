@@ -97,7 +97,7 @@ main {
     background-position: 70px -50px;
     background-size: 50vw; */
 }
-
+/* women illustration */
 #faqCard::before {
   content: "";
   background: url(images/illustration-woman-online-mobile.svg) no-repeat;
@@ -108,7 +108,7 @@ main {
   left: 50%;
   transform: translate(-45%, -55%);
 }
-
+/* pattern */
 #faqCard::after {
     content: "";
     background: url(images/bg-pattern-mobile.svg) no-repeat;
@@ -116,8 +116,9 @@ main {
     height: 105px;
     position: absolute;
     top: 1%;
-    left: 14%;
-    /* transform: translate(-45%, -55%); */
+    left: 50%;
+    transform: translate(-50%, 1%);
+
 }
 
 .faq-dropdowns {
