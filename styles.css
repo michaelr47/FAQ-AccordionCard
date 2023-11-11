@@ -158,7 +158,31 @@ p { display: inline; }
     #heading {
         align-self: flex-start;
         padding: 10px;
+        font-size: 35px;
     }
+
+    #faqCard::before {
+        content: "";
+        background: url(images/illustration-woman-online-desktop.svg) no-repeat;
+        width: 475px;
+        height: 375px;
+        position: absolute;
+        top: 55%;
+        left: 17%;
+        transform: translate(-50%, -55%);
+      
+      }
+      /* pattern */
+      #faqCard::after {
+          content: "";
+          background: url(images/bg-pattern-desktop.svg);
+          width: 950px;
+          height: 900px;
+          position: absolute;
+          top: -30%;
+          left: 0%;
+          transform: translate(-50%, 1%);
+      }
     
 }
 
