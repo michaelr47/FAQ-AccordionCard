@@ -150,6 +150,10 @@ p { display: inline; }
     #faqCard {
         flex-direction: row;
         width: 59.375rem;
+        background:
+        url(images/illustration-woman-online-desktop.svg) bottom 3.1rem left -5.1rem no-repeat,
+        url(images/bg-pattern-desktop.svg) bottom -10rem left -36rem no-repeat;
+        background-color: white;
     }
     .faq-dropdowns {
         width: 400px;
@@ -163,26 +167,16 @@ p { display: inline; }
 
     #faqCard::before {
         content: "";
-        background: url(images/illustration-woman-online-desktop.svg) no-repeat;
-        width: 475px;
-        height: 375px;
-        position: absolute;
-        top: 55%;
-        left: 17%;
-        transform: translate(-50%, -55%);
-      
-      }
+        background: url('./images/illustration-box-desktop.svg') no-repeat;
+        width: 190px;
+        height: 170px;
+
+    }
       /* pattern */
       #faqCard::after {
-          content: "";
-          background: url(images/bg-pattern-desktop.svg);
-          width: 950px;
-          height: 900px;
-          position: absolute;
-          top: -30%;
-          left: 0%;
-          transform: translate(-50%, 1%);
-      }
+          display: none;
+      } 
+      
     
 }
 
