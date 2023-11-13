@@ -148,6 +148,7 @@ p { display: inline; }
 @media only screen and (min-width: 768px) {
     
     #faqCard {
+        margin: 2rem;
         flex-direction: row;
         width: 59.375rem;
         background:
@@ -156,7 +157,7 @@ p { display: inline; }
         background-color: white;
     }
     .faq-dropdowns {
-        width: 400px;
+        width: 300px;
         align-items: flex-start;
     }
     #heading {
@@ -165,12 +166,23 @@ p { display: inline; }
         font-size: 35px;
     }
 
+    #questionList {
+        width: 90%;
+    }
+    .questions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* box */
     #faqCard::before {
         content: "";
         background: url('./images/illustration-box-desktop.svg') no-repeat;
-        width: 190px;
+        width: 180px;
         height: 170px;
-
+        position: absolute;
+        top: 63.75%;
+        left: -0.8%;
     }
       /* pattern */
       #faqCard::after {
@@ -180,3 +192,14 @@ p { display: inline; }
     
 }
 
+@media only screen and (min-width: 992px) {
+    .faq-dropdowns {
+        width: 400px;
+        justify-content: space-evenly;
+    }
+    
+    #questionList {
+        font-size: 14px;
+    }
+    
+}
