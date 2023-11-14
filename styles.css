@@ -145,6 +145,11 @@ p { display: inline; }
     display: none;
 }
 
+.arrowButton {
+    background-color: white;
+    border: none;
+}
+
 @media only screen and (min-width: 768px) {
     
     #faqCard {
