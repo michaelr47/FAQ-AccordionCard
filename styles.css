@@ -132,11 +132,16 @@ main {
     list-style-type: none;
     padding: 1rem 0px;
     font-size: 12px;
+    width: 95%;
 }
 
 .questions {
     border-bottom: 1px solid var(--lightGrayishBlue);
     padding: 10px;
+}
+.questions:hover, .arrowButton:hover  {
+    color: var(--softRedOrange);
+    cursor: pointer;
 }
 
 p { display: inline; }
