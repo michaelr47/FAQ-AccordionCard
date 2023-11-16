@@ -155,6 +155,11 @@ p { display: inline; }
     border: none;
 }
 
+.animate-upsideDown {
+    transform: rotate(180deg); 
+    transition: all .2s ease-in;
+ }
+
 @media only screen and (min-width: 768px) {
     
     #faqCard {
