@@ -146,14 +146,13 @@ main {
 
 p { display: inline; }
 
-.showAnswers {
-    display: block;
-}
-
 .answersDiv {
     display: none;
 }
 
+.answersDiv.show-answer {
+    display: block; 
+  }
 
 .arrowButton {
     background-color: white;
