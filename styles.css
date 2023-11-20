@@ -152,6 +152,10 @@ p { display: inline; }
 
 .answersDiv.show-answer {
     display: block; 
+    color: var(--darkGrayishBlue);
+    font-size: 12px;
+    margin: 7px 10px 0px;
+    line-height: 18px;
   }
 
 .arrowButton {
