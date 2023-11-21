@@ -15,19 +15,16 @@ questions.forEach((question, index) => {
     // visible answer state
     const isAnswerVisible = associatedAnswer.classList.contains('show-answer');
 
-    // Toggle visibility of the associated answer
-    if (isAnswerVisible) {
-      // Hide answer
-      associatedAnswer.classList.remove('show-answer');
-      
-    } else {
-      // Hide all other answers before displaying the clicked answer
-      answersDiv.forEach((answer, i) => {
-        answer.classList.remove('show-answer');
-      });
-       // Display the answer
+    // hide all other answers before displaying the clicked answer
+    answersDiv.forEach(answer => answer.classList.remove('show-answer'));
+    // font weight set to 'normal' to all question titles
+    questions.forEach(q => q.style.fontWeight = 'normal');
+   
+    if (!isAnswerVisible) {
+      // Display the answer
       associatedAnswer.classList.add('show-answer');
-      
-    }
+      // boldness to question question title
+      clickedQ.style.fontWeight = '700';
+    }  
   });
 });
