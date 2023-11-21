@@ -92,10 +92,7 @@ main {
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -5px;
     position: relative;
-    /* background-image: url('./images/illustration-woman-online-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: 70px -50px;
-    background-size: 50vw; */
+
 }
 /* women illustration */
 #faqCard::before {
@@ -135,10 +132,7 @@ main {
     width: 95%;
 }
 
-.questions {
-    border-bottom: 1px solid var(--lightGrayishBlue);
-    padding: 10px;
-}
+.questions { padding: 10px; }
 .questions:hover, .arrowButton:hover  {
     color: var(--softRedOrange);
     cursor: pointer;
@@ -154,7 +148,7 @@ p { display: inline; }
     display: block; 
     color: var(--darkGrayishBlue);
     font-size: 12px;
-    margin: 7px 10px 0px;
+    margin: 0px 10px 10px;
     line-height: 18px;
   }
 
@@ -166,6 +160,10 @@ p { display: inline; }
 .animate-upsideDown {
     transform: rotate(180deg); 
     transition: all .25s ease-out;
+ }
+
+ .borderBottom {
+    border-bottom: 1px solid var(--lightGrayishBlue);
  }
 
 @media only screen and (min-width: 768px) {
