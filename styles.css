@@ -132,7 +132,12 @@ main {
     width: 95%;
 }
 
-.questions { padding: 10px; }
+.questions { 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
 .questions:hover, .arrowButton:hover  {
     color: var(--softRedOrange);
     cursor: pointer;
