@@ -190,6 +190,7 @@ p { display: inline; }
 
     #questionList {
         width: 90%;
+        font-size: 14px;
     }
     .questions {
         display: flex;
@@ -219,9 +220,4 @@ p { display: inline; }
         width: 400px;
         justify-content: space-evenly;
     }
-    
-    #questionList {
-        font-size: 14px;
-    }
-    
 }
